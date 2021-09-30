@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="None">
+        
+        
+        <link rel="shortcut icon" href="img/favicon.ico">
+        <title>My Docs</title>
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/font-awesome.min.css" rel="stylesheet">
+        <link href="css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css">
+
+        <script src="js/jquery-1.10.2.min.js" defer></script>
+        <script src="js/bootstrap.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script> 
+    </head>
+
+    <body class="homepage">
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href=".">My Docs</a>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="1"><a href="#welcome-to-mkdocs" class="nav-link">Welcome to MkDocs</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#commands" class="nav-link">Commands</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#project-layout" class="nav-link">Project layout</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="welcome-to-mkdocs">Welcome to MkDocs</h1>
+<p>For full documentation visit <a href="https://www.mkdocs.org">mkdocs.org</a>.</p>
+<h2 id="commands">Commands</h2>
+<ul>
+<li><code>mkdocs new [dir-name]</code> - Create a new project.</li>
+<li><code>mkdocs serve</code> - Start the live-reloading docs server.</li>
+<li><code>mkdocs build</code> - Build the documentation site.</li>
+<li><code>mkdocs -h</code> - Print help message and exit.</li>
+</ul>
+<h2 id="project-layout">Project layout</h2>
+<pre><code>mkdocs.yml    # The configuration file.
+docs/
+    index.md  # The documentation homepage.
+    ...       # Other markdown pages, images and other files.
+</code></pre>
+<p>Documentation Tools
+Documentation in software engineering is the umbrella term that encompasses all written documents and materials dealing with a software product’s development and use.</p>
+<p>User Documentation
+This document is mostly delivered for end-user who actually want use the product themselves, to understand and complete a certain task.</p>
+<p>• How-to guides – Guides the user to complete a task or a predetermined goal.
+• Tutorials – Learns a concept by following a series of steps concept
+• Reference docs – Describes the technical detail of the product (Software requirement specification, software design documents and so on)
+• Administration Guide: Enables the administrator to refer to this after installing an application
+• Configuration Guide: Allows the administrator to refer to this document for configuration parameters.
+Developer Documentation
+This documentation refers to system-related documentation.
+• API documentation –Specifies how to invoke API calls and classes, or how to include API in the code that is being developed.
+• Release notes: Describes about the latest software, feature releases, and what bugs have been fixed. Usually, this document is a text file with a filename extension (.txt).
+• README: A form of documentation, it is usually a simple plain text file called Read Me, READ.ME, README.TXT with A high-level overview of the software, usually alongside the source code.
+• System documentation – Describes the system requirements, includes design documents and UML diagrams.
+3. Software Documentation Tool: GitHub
+GitHub pages let you convert your GitHub repositories and documents into a visually appealing website to showcase your portfolio, documentation, or your projects easily. GitHub pages provide you with one free webpage, GitHub hosting, and the ability to route a custom domain. Use Jekyll (a tool that converts plain text files into websites) and easily create an elegant web page.
+4. Software Documentation Tool: MarkdownPad
+MarkdownPad offers a lot of customizing options like color schemes, fonts, sizes, and layouts. It even supports your custom CSS stylesheets and has a built-in CSS editor. Users can easily convert their written text into HTML or even export their documents as PDFs.</p>
+<ol>
+<li>Software Documentation Tool: Read the DocsRead the Docs is a free platform for software documentation, used by millions of developers worldwide. Read the Docs simplifies software documentation by automating the building, versioning, and hosting of your docs for you. Read the Docs hosts your software documentation for free and currently supports over 90,000 projects.</li>
+<li>Software Documentation Tool: Doxygen</li>
+</ol>
+<p>Doxygen directly extracts the documentation from the sources, making it easier to keep the documentation consistent with the source code. Users can then export the documentation in RTF (MS-Word), PostScript, hyperlinked PDF, compressed HTML, and Unix man pages. Users can even generate graphs and diagrams from the source code, making it a highly customizable and feature-rich tool.
+Question 2:Define Mkdocs
+mkdocs-is a simple site generator that can create a website from a directory of markdown files. 
+It’s easy to extend through 1) themes, 2) plugins, and 3) extensions to the markdown language. 
+It uses simple markdown files, you can write docs in your IDE and use your normal git workflow. That keeps your code in sync with your docs, which definitely beats sending around lots of report_final22.docx files via email!
+Question3:mkdocs themes
+Cinder
+Cluster
+docSkimmer
+Material for MkDocs 
+ReadTheDocs-Dropdown
+Windmill
+Windmill Dark
+CustomMill
+Bootstrap 
+Bootswatch
+PSinder
+Bootstrap4</p></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = ".",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="js/base.js" defer></script>
+        <script src="search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
+
+<!--
+MkDocs version : 1.2.2
+Build Date UTC : 2021-09-30 06:13:02.259086+00:00
+-->
